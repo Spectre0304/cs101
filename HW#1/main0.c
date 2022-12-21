@@ -3,12 +3,10 @@
 int main()
 {
     int i = 10;
-    int num = 0;
-    scanf("%d",&num);
-    if(num&(num-1))
-        printf("%d is false",num);
+    if(i&(i-1))
+        printf("%d is false\n",i);
     else
-        printf("%d is true\n",num);
+        printf("%d is true\n",i);
 
     return 0;
 }
